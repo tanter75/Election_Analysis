@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit:
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculated the total number of votes cast.
@@ -9,11 +9,11 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
 
-## Resources
+## Resources:
 - Data Source: election_results.csv
 - Software: Python 3.8.8, Visual Studio Code, 1.58.2
 
-## Summary
+## Election_Audit Results:
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The candidates were:
@@ -27,6 +27,6 @@ The candidate results were:
 - The winner of the election was:
 	- Candidate 2 (Diana DeGette)
 
-## Challenge Overview
-
-## Challenge Summary
+## Election_Audit Summary:
+The election_audit script would be useful to tabulate election results for not only county votes, but for any election result with some modifications.
+This script allows for a summary of total votes, summarized by voting area and candidate.  By modifying the headers, such as subsituting state for county, this script can be used to effectively tabulate the results for municipal, state and federal elections.
